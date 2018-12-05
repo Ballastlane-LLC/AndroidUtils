@@ -1,0 +1,15 @@
+ext {
+    projectName = 'android-databinding-pikkup'
+    projectDesc = 'Pikkup base databinding library'
+
+    packageDesc = 'Initial commit'
+    versionDesc = 'Initial commit'
+
+    repoUrl = 'https://github.com/Ballastlane-LLC/AndroidBaseLibrary/'
+
+    mavenGroup = 'com.ballastlane.android'
+    mavenArtifactId = 'databinding-pikkup'
+    mavenVersion = '1.0.0'
+
+    bintrayOrg = 'ballastlane'
+}

@@ -1,0 +1,15 @@
+ext {
+    projectName = 'android-location-pikkup'
+    projectDesc = 'Pikkup base location library'
+
+    packageDesc = 'Initial commit'
+    versionDesc = 'Initial commit'
+
+    repoUrl = 'https://github.com/Ballastlane-LLC/AndroidBaseLibrary/'
+
+    mavenGroup = 'com.ballastlane.android'
+    mavenArtifactId = 'location-pikkup'
+    mavenVersion = '1.0.0'
+
+    bintrayOrg = 'ballastlane'
+}

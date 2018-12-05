@@ -5,7 +5,7 @@ ext {
     packageDesc = 'Initial commit'
     versionDesc = 'Initial commit'
 
-    repoUrl = 'https://github.com/Ballastlane-LLC/AndroidBaseLibrary/'
+    repoUrl = 'https://github.com/Ballastlane-LLC/AndroidUtils/'
 
     mavenGroup = 'com.ballastlane.android'
     mavenArtifactId = 'databinding-pikkup'

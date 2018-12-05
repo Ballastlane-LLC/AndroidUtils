@@ -33,3 +33,11 @@ dependencies {
     implementation 'com.loopj.android:android-async-http:1.4.9'
     implementation 'com.github.dotloop:aosp-exif:be25ae51ec'
 }
+
+gradle.taskGraph.afterTask { Task task, TaskState state ->
+    if (task.name == "bintrayUpload") {
+        println '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+        println "${task.name} ends with state ${state.didWork ? "done" : "FAILED"} "
+        println '<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'
+    }
+}

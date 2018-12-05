@@ -20,6 +20,8 @@ buildscript {
     }
 }
 
+apply plugin: 'com.jfrog.bintray'
+
 allprojects {
     repositories {
         google()
